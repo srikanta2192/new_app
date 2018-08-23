@@ -1,7 +1,8 @@
+<% provide(:p, "About") %>
 <!DOCTYPE html>
 <html>
   <head>
-    <p>Help | Ruby on Rails Tutorial Sample App</p>
+  <p><%= yield(:p) %> | Ruby on Rails Tutorial Sample App</p>
   </head>
   <body>
     <h1>Sample App</h1>
